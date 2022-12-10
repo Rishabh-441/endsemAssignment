@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ff4b1f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1fddff, #ff4b1f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1fddff, #ff4b1f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.background {
+    color: orange;
+    margin-top: 50px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.pexels.com/photos/2473183/pexels-photo-2473183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    width: 80vw;
+    height: 300px;
+}
+
+.content {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.box {
+    margin: 30px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid black;
+}
+.texttop {
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    font-size: 30px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #f7f5f7;
+    border-bottom: 1px solid black;
+}
+.text {
+    width: 900px;
+    min-height: 800px;
+    height: fit-content;
+    /* overflow-y: scroll; */
+}
+.funbox {
+    width: 300px;
+    height: fit-content;
+}
+
+.funtop {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    /* border-radius: 5px; */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #f7f5f7;
+    border-bottom: 1px solid black;
+}
+/* .search {
+
+}
+.select {
+
+}
+.maxFreq {
+
+}
+.minFreq {
+
+} */
+.serachbox {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.book {
+    color: blueviolet;
+    margin: 5px 0 5px 4px;
+}
+
+.input {
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.find {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    border: 1px solid black;
+    background-color: aqua;
+}
+.bookcontent {
+    padding-left: 30px;
+}
